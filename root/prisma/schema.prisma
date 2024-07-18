@@ -9,6 +9,6 @@ generator client {
 }
 
 datasource db {
-  provider = "postgresql"
-  url      = env("DATABASE_URL")
+  provider = "mysql"
+  url      = env("localhost:3306/detran")
 }

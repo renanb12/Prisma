@@ -8,13 +8,20 @@
     "body-parser": "^1.20.2",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
-    "mysql2": "^3.10.3",
-    "prisma": "^5.17.0"
+    "mysql2": "^3.10.3"
   },
   "scripts": {
     "start": "tsc && node dist/app-js"
   },
   "devDependencies": {
+    "@prisma/client": "^5.17.0",
+    "prisma": "^5.17.0",
     "typescript": "^5.5.3"
-  }
+  },
+  "name": "root",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
